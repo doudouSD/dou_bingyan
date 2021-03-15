@@ -1,0 +1,74 @@
+<!--
+    实际开发不常用，后面通过CSS设置
+
+    属性名           属性值          描述
+    align       left center right   对齐方式
+    border          1 或 ""         规定边框，默认""，无
+    cellpadding      像素值         规定单元边沿预期为内容的空白，默认为1像素    
+    cellspacing      像素值         规定单元格之间的空白，默认为2像素
+    width        像素值 或 百分比    规定表格的宽度
+
+    这些属性要写到表格标签的 table 里面去
+
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>姓名</th>
+            <!--表头头单元格标签-->
+            <th>姓别</th>
+            <th>年龄</th>
+        </tr>
+        <tr>
+            <td>刘德华</td>
+            <td>男</td>
+            <td>56</td>
+        </tr>
+        <tr>
+            <td>杨幂</td>
+            <td>女</td>
+            <td>38</td>
+        </tr>
+        <tr>
+            <td>张学友</td>
+            <td>男</td>
+            <td>58</td>
+        </tr>
+    </table>
+
+    <table align="center" border="1" cellpadding="20" cellspacing="0" width="500" height="249">
+        <tr>
+            <th>姓名</th>
+            <!--表头头单元格标签-->
+            <th>姓别</th>
+            <th>年龄</th>
+        </tr>
+        <tr>
+            <td>刘德华</td>
+            <td>男</td>
+            <td>56</td>
+        </tr>
+        <tr>
+            <td>杨幂</td>
+            <td>女</td>
+            <td>38</td>
+        </tr>
+        <tr>
+            <td>张学友</td>
+            <td>男</td>
+            <td>58</td>
+        </tr>
+    </table>
+</body>
+
+</html>
