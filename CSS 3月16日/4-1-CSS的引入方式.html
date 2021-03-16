@@ -1,0 +1,36 @@
+<!--
+    按CSS样式的书写位置，CSS样式表分为：
+    1、内部样式表（嵌入式）：
+       将所有CSS抽取出来，放入<style>中，一般放入<head>标签
+       方便控制当前整个页面元素的样式设置，但没有实现结构和样式完全分离
+
+    2、行内样式表（行内式）：
+       在行内标签内部的style属性中设定CSS样式，适用于修改简单样式
+       <div style="color: pink; font-size: 12px;">你好</div>
+
+    3、外部样式表（链接式）
+       开发中常用
+       样式单独写道CSS文件中，把CSS文件引入HTML
+
+       两步：
+       1、新建一个后缀名为 .css 的样式文件，把所有 CSS代码 都放入此文件
+          (css文件中只有样式，无需<style>标签)
+       2、在HTNML中，用<link>引入这个文件
+         <link rel="stylesheet" href="css文件路径">
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>我要加入冰岩</div>
+</body>
+
+</html>

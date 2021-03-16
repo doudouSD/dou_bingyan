@@ -1,0 +1,49 @@
+<!--
+    选择父元素里的子元素
+    外层标签写在前面，内层标签写在后面，中间用空格分隔
+    元素一 和 元素二 可以是任意基础选择器
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol li {
+            color: red;
+        }
+        
+        ol li a {
+            color: green;
+        }
+        
+        .nav li {
+            color: hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>我是ol 的孩子</li>
+        <li>我是ol 的孩子</li>
+        <li><a a href="#">孩子</a></li>
+    </ol>
+    <ul>
+        <li>我是ul 的孩子</li>
+        <li>我是ul 的孩子</li>
+        <li>我是ul 的孩子</li>
+    </ul>
+
+    <ul class="nav">
+        <li>我是ul 的孩子1</li>
+        <li>我是ul 的孩子2</li>
+        <li>我是ul 的孩子3</li>
+        <li>我是ul 的孩子4</li>
+    </ul>
+</body>
+
+</html>
